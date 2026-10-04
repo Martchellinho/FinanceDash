@@ -43,3 +43,86 @@ FinanceDash/
         ├── resumo.png
         ├── graficos.png
         └── movimentacoes.png
+```
+
+## Dashboard
+
+### Resumo Financeiro
+
+Indicadores principais de receitas, despesas, saldo, movimentações e categoria com maior gasto.
+
+![Resumo Financeiro](docs/images/resumo.png)
+
+### Gráficos
+
+Visualização das despesas por categoria e comparação entre receitas e despesas.
+
+![Gráficos](docs/images/graficos.png)
+
+### Movimentações
+
+Tabela com os registros financeiros e opção para exportar os dados em CSV.
+
+![Movimentações](docs/images/movimentacoes.png)
+
+## Dados
+
+O dashboard utiliza um arquivo CSV contendo informações como:
+
+- Data
+- Tipo da movimentação
+- Categoria
+- Descrição
+- Valor
+
+Os dados utilizados no projeto são fictícios e foram criados apenas para demonstração.
+
+## Como executar
+
+Instale as dependências:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Depois execute:
+
+```bash
+python -m streamlit run app.py
+```
+
+## Site online
+
+Acesse a versão publicada do dashboard:
+
+https://financedash-martchellinho.streamlit.app/
+
+## Objetivo do projeto
+
+O FinanceDash foi desenvolvido como projeto de portfólio para aplicar conhecimentos de:
+
+- Python
+- Análise de dados
+- Manipulação de arquivos CSV
+- Criação de dashboards
+- Filtros de dados
+- Visualização de informações
+- Criação de gráficos
+- Organização financeira
+
+## Possíveis melhorias futuras
+
+- Cadastro de movimentações pelo próprio dashboard
+- Banco de dados
+- Login de usuários
+- Metas financeiras
+- Orçamento mensal
+- Comparação entre diferentes anos
+- Relatórios em PDF
+- Integração com APIs bancárias
+
+## Autor
+
+Desenvolvido por **Martchellinho**.
+
+GitHub: https://github.com/Martchellinho
